@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Aviso from "./components/aviso";
 export default function Home() {
   return (
     <main className="">
@@ -94,6 +94,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Aviso />
     </main>
   );
 }
