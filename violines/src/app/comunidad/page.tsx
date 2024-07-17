@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Aviso from "../components/aviso";
 import Marquee from "react-fast-marquee";
 import React, { useEffect, useState } from "react";
 export default function Comunidad() {
@@ -112,7 +113,7 @@ export default function Comunidad() {
           </div>
         </div>
       </div>
-
+      <Aviso/>
 
     </main>
   );
