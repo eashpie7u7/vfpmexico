@@ -47,11 +47,21 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-slate-100">
-          <p className="font-bold text-2xl text-center">Nuestra historia</p>
-          <div className="flex flex-row space-x-32 px-24 py-60 justify-center items-center ">
-            <div className="bg-azulclaro rounded-lg w-44 p-8">
-              <p className="text-white text-center font-bold text-5xl">2015</p>
+        <div className="bg-gray-200">
+          <div className="flex flex-col p-12">
+            <p className="font-bold text-3xl text-center">Nuestra historia</p>
+          </div>
+          <div className="flex flex-row space-x-32 px-24 py-60 justify-center items-center relative">
+            <div className="relative">
+              <div className="bg-azulclaro rounded-lg w-44 p-8 relative">
+                <p className="text-white text-center font-bold text-5xl">2015</p>
+              </div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 top-full mt-4 w-px h-32 bg-azulclaro"></div>
+              <div className="bg-white absolute left-1/2 transform -translate-x-1/2 mt-40 p-4 rounded-lg w-60 shadow-lg">
+                <p>Violines Por la Paz A.C., una  asociación civil sin fines de lucro
+                  inició labores en el 2015, como grupo estudiantil del Tecnológico
+                  de Monterrey Campus Tampico.</p>
+              </div>
             </div>
             <div className="bg-azulclaro rounded-lg w-44 p-8">
               <p className="text-white text-center font-bold text-5xl">2016</p>
@@ -59,24 +69,28 @@ export default function Home() {
             <div className="bg-azulclaro rounded-lg w-44 p-8">
               <p className="text-white text-center font-bold text-5xl">2017</p>
             </div>
-            <div className="bg-azulclaro rounded-lg w-44 p-8">
-              <p className="text-white text-center font-bold text-5xl">2018</p>
+            <div className="relative">
+              <div className="bg-azulclaro rounded-lg w-44 p-8 relative">
+                <p className="text-white text-center font-bold text-5xl">2018</p>
+              </div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 mt-40 bg-white p-4 w-60  rounded-lg shadow-lg">
+                <p >Violines Por la Paz A.C. fue
+                  constituida como asociación  civil contando actualmente
+                  con presencia en Tampico, Madero, Altamira
+                  y Ciudad de México.</p>
+              </div>
             </div>
           </div>
-
-          <p>
-            Violines Por la Paz A.C. es una asociación civil sin fines de lucro
-            que inició labores en el 2015 como grupo estudiantil del Tecnológico de
-            Monterrey Campus Tampico.
-
+          <p className="text-2xl font-semibold mt-20 w-3/4 p-12">
+            <br /><br />
             Desde entonces, nuestro objetivo es brindar herramientas de
             aprendizaje a niños de escasos recursos de entre seis y trece años
             a fin de que encuentren su pasión y su talento y lo desarrollen.
-
-            Fue hasta el año 2018 que fue constituida como asociación civil
-            contando actualmente con presencia en Tampico, Madero, Altamira y
-            Ciudad de México.
+            <br /><br />
           </p>
+        </div>
+        <div className="flex flex-col bg-white p-12">
+          <p className="text-3xl font-bold text-center">Misión y visión</p>
         </div>
         <div className="flex flex-row justify-center items-center p-4 space-x-32 h-screen bg-white">
           <div className="w-1/3 h-96 bg-azulfuerte rounded-lg shadow-lg p-8">

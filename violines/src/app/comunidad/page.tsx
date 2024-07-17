@@ -7,15 +7,15 @@ export default function Comunidad() {
     <main className="">
       <div className="bg-white h-full flex flex-col">
         <div className="flex flex-col p-2">
-        <p className="text-3xl font-bold text-center"> Comunidad</p>
-        <p className="text-2xl font-semibold px-24 py-8">
-        La labor de Violines Por La Paz es solo posible gracias al apoyo de
-        instituciones y voluntarios, que colaboran con nosotros para llevar
-        oportunidades de aprendizaje únicas a los niños mexicanos.
-        </p>
+          <p className="text-3xl font-bold text-center"> Comunidad</p>
+          <p className="text-2xl font-semibold px-24 py-8">
+            La labor de Violines Por La Paz es solo posible gracias al apoyo de
+            instituciones y voluntarios, que colaboran con nosotros para llevar
+            oportunidades de aprendizaje únicas a los niños mexicanos.
+          </p>
         </div>
-        <div className="flex flex-row items-center justify-center p-24">
-          <div className="bg-azulfuerte flex flex-col p-8 w-full rounded-lg ">
+        <div className="flex flex-row items-center justify-center px-24 py-8">
+          <div className="bg-azulfuerte shadow-2xl flex flex-col p-8 w-full rounded-lg ">
             <p className="text-white font-bold text-3xl text-center">¿Deseas ayudar?</p>
             <p className="text-white font-bold text-3xl text-center p-2">¡Aquí te decimos cómo formar parte!
             </p>
@@ -70,13 +70,13 @@ export default function Comunidad() {
           </Marquee>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center p-8 relative">
+      <div className="flex flex-col  bg-gray-200 justify-center items-center p-8 relative">
         <Image src="/images/maestro.png"
           alt="Maestro"
           width={900}
           height={800}
           style={{ borderRadius: '20px' }} />
-        <div className="absolute  mt-96 left-1/2 transform -translate-x-1/2  flex flex-col justify-center items-center p-4"
+        <div className="absolute shadow-2xl mt-96 left-1/2 transform -translate-x-1/2  flex flex-col justify-center items-center p-4"
           style={{
             width: '900px',
             height: '260px',
@@ -95,7 +95,21 @@ export default function Comunidad() {
               ser nuestro nexo para que sus alumnos realicen servicio social!
             </p>
           </div>
-
+        </div>
+      </div>
+      <div className="flex flex-col bg-gray-200 h-screen">
+        <div className="flex flex-col p-4">
+          <p className="text-3xl font-bold text-center">Testigos</p>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <div className="bg-azulfuerte shadow-xl rounded-lg w-1/2 h-96">
+            <div className="bg-white shadow-xl rounded-lg w-full h-96 ml-12 mt-8 p-12">
+              <p className="text-3xl font-semibold">"He visto un cambio muy bueno en mi hijo, ahora se concentra
+                mucho más y ha encontrado una actividad para hacer después de
+                clase que en verdad le gusta."</p>
+                <p className="text-3xl font-semibold mt-12 text-right">-Mamá de Victor</p>
+            </div>
+          </div>
         </div>
       </div>
 
